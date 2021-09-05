@@ -41,3 +41,12 @@ def actividad3(pers1, pers2, pers3):
 
 def actividad4(saldoini):
     return saldoini + (saldo * 0.015)
+
+def actividad5(sueldobase):
+    ley = sueldobase * 0.01
+    seguro_social = sueldobase * 0.04
+    seguro_forzoso = sueldobase * 0.005
+    cajaahor = sueldobase * 0.05
+    sueldo_final = sueldobase - ley - seguro_social - seguro_forzoso - cajaahor
+
+    return ley, seguro_social, seguro_forsozo, caja, sueldo_final
