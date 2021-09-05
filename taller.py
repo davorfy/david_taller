@@ -40,7 +40,7 @@ def actividad3(pers1, pers2, pers3):
     return porc1, porc2, porc3
 
 def actividad4(saldoini):
-    return saldoini + (saldo * 0.015)
+    return saldoini + (saldoini * 0.015)
 
 def actividad5(sueldobase):
     ley = sueldobase * 0.01
@@ -74,5 +74,8 @@ def actividad11(monto):
     pediatria = monto * 0.3
 
     return ginecologia, traumatologia, pediatria
+
+def actividad12(npeli, ndias):
+    return ((npeli - 1) * 1500) * ndias
 
 
