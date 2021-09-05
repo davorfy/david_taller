@@ -68,4 +68,11 @@ def actividad9(inic, fin):
 def actividad10(nfot):
     return (nfot * 1500) + ((nfot * 1500) * 0.16)
 
+def actividad11(monto):
+    ginecologia =  monto * 0.4
+    traumatologia = monto * 0.3
+    pediatria = monto * 0.3
+
+    return ginecologia, traumatologia, pediatria
+
 
