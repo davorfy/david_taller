@@ -49,4 +49,7 @@ def actividad5(sueldobase):
     cajaahor = sueldobase * 0.05
     sueldo_final = sueldobase - ley - seguro_social - seguro_forzoso - cajaahor
 
-    return ley, seguro_social, seguro_forsozo, caja, sueldo_final
+    return ley, seguro_social, seguro_forzoso, cajaahor, sueldo_final
+
+def actividad6(npalabras, tam, col):
+    return (npalabras * 20000) + (tam * 15000) + (col * 25000)
