@@ -86,4 +86,12 @@ def actividad13(npers, ndias):
 def actividad14(ndias):
     return ((ndias - 1) * 200000) + 100000
 
+def actividad15(mont_tot):
+    total_pago = (mont_tot * 0.24) + mont_tot
+    cuota_esp = total_pago / 2 / 4
+    couta_ord = total_pago / 2 / 20
+
+    return cuota_esp, couta_ord
+
+
 
