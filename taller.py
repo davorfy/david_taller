@@ -31,3 +31,10 @@ def actividad1(p, v, t):
 
 def actividad2(edad):
     return (200 - edad) / 10
+
+def punto3(pers1, pers2, pers3):
+    total = pers1 + pers2 + pers3
+    porc1 = pers1 * 100 / total
+    porc2 = pers2 * 100 / total
+    porc3 = pers3 * 100 / total
+    return porc1, porc2, porc3
