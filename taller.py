@@ -23,3 +23,8 @@ def valor3y():
     m = z**2 * 3 + n;
     y = ((((z+2-n)**2 * m+8/2 - 30) / 2 * 5 - 3)**5 + 15 * 3 - 9 / 3)**2 - 5 / 4
     return y
+
+# Desarrollo 2
+
+def actividad1(p, v, t):
+    return (p * v) / (0.37 * (t + 460))
