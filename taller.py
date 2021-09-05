@@ -28,3 +28,6 @@ def valor3y():
 
 def actividad1(p, v, t):
     return (p * v) / (0.37 * (t + 460))
+
+def actividad2(edad):
+    return (200 - edad) / 10
