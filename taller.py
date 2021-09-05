@@ -78,4 +78,9 @@ def actividad11(monto):
 def actividad12(npeli, ndias):
     return ((npeli - 1) * 1500) * ndias
 
+def actividad13(npers, ndias):
+    total = (npers * 25000) * ndias
+    totaliva = total + total * 0.12
+    return totaliva
+
 
