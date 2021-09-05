@@ -56,3 +56,8 @@ def actividad6(npalabras, tam, col):
 
 def actividad7(t):
     return 100000 + (120000 * (t - 1))
+
+def actividad8(t_h):
+    desc = (t_h * 20000) * 0.05
+    pago = t_h * 20000 - desc
+    return pago, desc
