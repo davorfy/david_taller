@@ -83,4 +83,7 @@ def actividad13(npers, ndias):
     totaliva = total + total * 0.12
     return totaliva
 
+def actividad14(ndias):
+    return ((ndias - 1) * 200000) + 100000
+
 
