@@ -53,3 +53,6 @@ def actividad5(sueldobase):
 
 def actividad6(npalabras, tam, col):
     return (npalabras * 20000) + (tam * 15000) + (col * 25000)
+
+def actividad7(t):
+    return 100000 + (120000 * (t - 1))
