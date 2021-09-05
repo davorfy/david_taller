@@ -61,3 +61,7 @@ def actividad8(t_h):
     desc = (t_h * 20000) * 0.05
     pago = t_h * 20000 - desc
     return pago, desc
+
+def actividad9(inic, fin):
+    return (inic - fin) - ((inic - fin) * 0.2)
+
