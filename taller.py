@@ -65,3 +65,7 @@ def actividad8(t_h):
 def actividad9(inic, fin):
     return (inic - fin) - ((inic - fin) * 0.2)
 
+def actividad10(nfot):
+    return (nfot * 1500) + ((nfot * 1500) * 0.16)
+
+
